@@ -17,7 +17,7 @@ def get_word():
             print("Invalid entry. Please enter an integer between 3 and 16.\n")
 
     words_of_length = [word for word in words if len(word) == word_length]
-    return words_of_length[random.randrange(0, len(words_of_length) - 1)]
+    return words_of_length[random.randrange(0, len(words_of_length))]
 
 
 def make_guessed_box(letters):
